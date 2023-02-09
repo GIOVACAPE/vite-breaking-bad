@@ -61,7 +61,7 @@ export default {
                                 <img :src="card.card_images[0].image_url" alt="" class=" img-fluid">
                             </div>
                             <div class="info p-3 d-flex flex-column  justify-content-between">
-                                <h3 class="text-white"> {{ card.name }}</h3>
+                                <h3 class="text-black"> {{ card.name }}</h3>
                                 <h4 class="text-center">{{ card.archetype }}</h4>
                             </div>
                         </div>
